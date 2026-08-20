@@ -1,0 +1,61 @@
+    .SUBSCRIBE {
+        background-color: red;
+        color: white;
+        border: none;
+        height: 30px;
+        width: 90px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .SUBSCRIBE:hover {
+        background-color: cadetblue;
+        transition: 0.5s;
+    }
+
+    .JOIN {
+        background-color: white;
+        border-color: blue;
+        border-style: solid;
+        border-width: 0.9px;
+        color: blue;
+        height: 30px;
+        width: 60px;
+        border-radius: 2.5px;
+        cursor: pointer;
+        margin-left: 5px;
+        transition: background-color 0.5s,
+            color 0.5s;
+    }
+
+    .JOIN:hover {
+        background-color: blue;
+        color: wheat;
+        border-color: blue;
+        opacity: 0.5;
+    }
+
+    .LIKE {
+        background-color: cornflowerblue;
+        border-style: solid;
+        color: azure;
+        border: none;
+        margin-left: 8px;
+        height: 30px;
+        width: 60px;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+    .LIKE:hover {
+        opacity: 0.7;
+        transform: scale(1.2);
+    }
+
+    .github {
+        color: brown;
+        padding-left: 10px;
+        size: 15px;
+    }
